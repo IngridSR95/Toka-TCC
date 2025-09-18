@@ -1,18 +1,5 @@
-# TOKA - Restaurant Management System (Frontend)  
+# Vue 3 + Vite
 
-This repository is part of the TOKA project, a graduation project (TCC) developed at FATEC.  
-It contains the **frontend screens** of the restaurant management system, focusing on how employees will use the platform to improve service and internal processes.  
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## ✨ Current Features (UI only)  
-- Open and close customer tabs (comandas)  
-- Order management screens  
-- Karaoke queue interface
-
-## 🎯 Purpose  
-The goal is to design an interface that helps restaurants and leisure establishments organize queues, manage orders, and streamline customer service.  
-
-## 📌 Important Note  
-This repository currently includes **UI prototypes and frontend components only**.  
-Backend, database, and full integration are planned for future stages.  
-
----
+Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
