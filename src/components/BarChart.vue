@@ -1,3 +1,3 @@
 <template>
-  <h1>Relatorio</h1>
+  <h1>Grafico</h1>
 </template>
