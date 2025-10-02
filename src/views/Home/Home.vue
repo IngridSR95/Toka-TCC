@@ -4,7 +4,7 @@
       <div class="logo-area">
         <img src="/images/tokaname.png" alt="Toka Snooker Bar Logo" class="logo-icon" />
         <span class="logo-text"></span> 
-        </div>
+      </div>
       
       <nav class="nav-menu">
         <a href="#" class="nav-item active">HOME</a>
@@ -33,11 +33,10 @@
           <h1>Bem-vindo ao Toka Snooker Bar!</h1>
           <p>O ponto de encontro ideal para quem curte boa música, diversão entre amigos e aquele clima descontraído de bar e restaurante. Aqui você encontra mesas de sinuca, drinks variados, porções caprichadas e, claro, muito karaokê para soltar a voz!</p>
         </div>
-        <div class="mini-gallery">
-          <img src="/images/bar.jpg" alt="Bar" class="mini-photo" />
-          <img src="/images/BILHAR.webp" alt="Mesa de Bilhar" class="mini-photo" />
-          <img src="/images/drink%20toka.jpg" alt="Drink Toka" class="mini-photo" />
-          <img src="/images/karaoke.jpg" alt="Palco Karaokê" class="mini-photo" />
+        <div class="mini-gallery horizontal-scroll">
+          <img src="/images/karaoke.jpg" alt="Karaokê" class="mini-photo" />
+          <img src="/images/sinuca.jpg" alt="Sinuca" class="mini-photo" />
+          <img src="/images/bar1.jpg" alt="Bar 1" class="mini-photo" />
         </div>
       </div>
     </section>
@@ -52,25 +51,32 @@
     </section>
 
     <section class="gallery-map-section">
-      <div class="gallery-container">
-        <img src="/images/placa.jpg" alt="Fachada Toka" class="gal-photo" />
+      <div class="gallery-container horizontal-scroll">
+        <img src="/images/placa.jpg" alt="Placa Toka" class="gal-photo" />
+        <img src="/images/conheca.jpg" alt="Bar" class="gal-photo" />
+        <img src="/images/bar.jpg" alt="Prateleiras do Bar" class="gal-photo" />
+        <img src="/images/drink%20toka.jpg" alt="Drink Toka" class="gal-photo" />
         <img src="/images/mojito.jpg" alt="Drink Mojito" class="gal-photo" />
-        <img src="/images/bar1.jpg" alt="Prateleiras do Bar" class="gal-photo" />
-        <img src="/images/sinuca.jpg" alt="Sinuca Detalhe" class="gal-photo" />
       </div>
       
       <div class="map-container">
-        <img src="/images/toka.jpg" alt="Localização no Mapa" class="map-image" />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.5451415627413!2d-46.5257772!3d-23.663087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce427d5474f175%3A0xfcd0ced5add3dc8a!2sToka%20Snooker%20Karaok%C3%AA%20Bar!5e1!3m2!1spt-BR!2sbr!4v1759421710928!5m2!1spt-BR!2sbr"          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </section>
 
     <footer>
-      </footer>
+    </footer>
   </div>
 </template>
 
 <script>
-// Importa o arquivo CSS
 import '@/views/Home/Home.css'; 
 
 export default {
@@ -79,5 +85,5 @@ export default {
 </script>
 
 <style scoped>
-/* A estilização principal está no Home.css importado acima */
+
 </style>
