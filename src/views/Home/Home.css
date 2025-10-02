@@ -13,10 +13,67 @@
   --color-white: #fff;
 }
 
+.main-bar-photo {
+  width: 100%;
+  /* Define uma altura fixa para a imagem principal */
+  height: 350px; 
+  display: block;
+  border-radius: 4px;
+  /* Garante que a imagem preencha a altura sem ser esmagada/esticada */
+  object-fit: cover; 
+}
+
+.mini-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Aumentei o gap para melhor visualização */
+  margin-top: 20px;
+}
+
+.mini-photo {
+  width: 100%;
+  /* Define uma altura fixa para todas as miniaturas */
+  height: 120px; 
+  display: block;
+  /* Garante que a imagem preencha o espaço sem ser esmagada/esticada */
+  object-fit: cover; 
+  border-radius: 4px;
+}
+
 .home-page {
   font-family: Arial, sans-serif;
   color: var(--color-text);
   line-height: 1.6;
+}
+
+.gallery-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.gal-photo {
+  width: 100%;
+  /* Define uma altura fixa para as fotos da galeria inferior */
+  height: 150px; 
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Garante que a imagem do mapa (ou o iframe real) ocupe bem o espaço */
+.map-container {
+  flex: 1;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.map-image {
+  width: 100%;
+  /* Define uma altura que preenche o container */
+  height: 450px; 
+  object-fit: cover;
 }
 
 h1, h2 {

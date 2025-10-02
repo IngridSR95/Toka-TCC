@@ -2,9 +2,9 @@
   <div class="home-page">
     <header class="navbar">
       <div class="logo-area">
-        <img src="/path-to-your-logo.png" alt="Toka Snooker Bar Logo" class="logo-icon" />
-        <span class="logo-text">TOKA</span>
-      </div>
+        <img src="/images/tokaname.png" alt="Toka Snooker Bar Logo" class="logo-icon" />
+        <span class="logo-text"></span> 
+        </div>
       
       <nav class="nav-menu">
         <a href="#" class="nav-item active">HOME</a>
@@ -16,7 +16,7 @@
 
       <div class="action-icons">
         <span class="search-icon">🔍</span>
-        <a href="#" class="login-link">
+        <a href="/login" class="login-link">
           <span class="user-icon">👤</span>
           <span class="login-text">FAÇA LOGIN</span>
         </a>
@@ -25,7 +25,7 @@
 
     <section class="hero-section">
       <div class="hero-image-container">
-        <img src="/path-to-main-bar-photo.jpg" alt="Interior do Toka Snooker Bar" class="main-bar-photo" />
+        <img src="/images/toka.jpg" alt="Interior do Toka Snooker Bar" class="main-bar-photo" />
       </div>
 
       <div class="welcome-content">
@@ -34,10 +34,10 @@
           <p>O ponto de encontro ideal para quem curte boa música, diversão entre amigos e aquele clima descontraído de bar e restaurante. Aqui você encontra mesas de sinuca, drinks variados, porções caprichadas e, claro, muito karaokê para soltar a voz!</p>
         </div>
         <div class="mini-gallery">
-          <img src="/path-to-mini-photo-1.jpg" alt="Detalhe 1" class="mini-photo" />
-          <img src="/path-to-mini-photo-2.jpg" alt="Detalhe 2" class="mini-photo" />
-          <img src="/path-to-mini-photo-3.jpg" alt="Detalhe 3" class="mini-photo" />
-          <img src="/path-to-mini-photo-4.jpg" alt="Detalhe 4" class="mini-photo" />
+          <img src="/images/bar.jpg" alt="Bar" class="mini-photo" />
+          <img src="/images/BILHAR.webp" alt="Mesa de Bilhar" class="mini-photo" />
+          <img src="/images/drink%20toka.jpg" alt="Drink Toka" class="mini-photo" />
+          <img src="/images/karaoke.jpg" alt="Palco Karaokê" class="mini-photo" />
         </div>
       </div>
     </section>
@@ -53,14 +53,14 @@
 
     <section class="gallery-map-section">
       <div class="gallery-container">
-        <img src="/path-to-gal-photo-1.jpg" alt="Galeria Foto 1" class="gal-photo" />
-        <img src="/path-to-gal-photo-2.jpg" alt="Galeria Foto 2" class="gal-photo" />
-        <img src="/path-to-gal-photo-3.jpg" alt="Galeria Foto 3" class="gal-photo" />
-        <img src="/path-to-gal-photo-4.jpg" alt="Galeria Foto 4" class="gal-photo" />
+        <img src="/images/placa.jpg" alt="Fachada Toka" class="gal-photo" />
+        <img src="/images/mojito.jpg" alt="Drink Mojito" class="gal-photo" />
+        <img src="/images/bar1.jpg" alt="Prateleiras do Bar" class="gal-photo" />
+        <img src="/images/sinuca.jpg" alt="Sinuca Detalhe" class="gal-photo" />
       </div>
       
       <div class="map-container">
-        <img src="/path-to-map-image.png" alt="Localização no Mapa" class="map-image" />
+        <img src="/images/toka.jpg" alt="Localização no Mapa" class="map-image" />
       </div>
     </section>
 
