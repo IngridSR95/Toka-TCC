@@ -1,0 +1,87 @@
+:root {
+  /* Paleta de Cores */
+  --color-green: #2E7D32;
+  --color-red: #D32F2F;
+  --color-yellow: #F9A825;
+  --color-black: #181A19;
+  
+  /* Cores base */
+  --color-primary: var(--color-black);
+  --color-secondary: var(--color-green);
+  --color-active: var(--color-yellow);
+  --color-text: #444;
+  --color-white: #fff;
+}
+
+.home-page {
+  font-family: Arial, sans-serif;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: var(--color-primary);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 10px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.nav-item {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px 0;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-item.active {
+  font-weight: bold;
+}
+
+.nav-item.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-active);
+}
+
+.login-link {
+  color: var(--color-white); 
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section {
+  display: flex;
+  padding: 40px;
+  gap: 30px;
+  background-color: var(--color-white);
+}
+
+.call-to-action {
+  padding: 40px;
+  text-align: center;
+  background-color: #f7f7f7; 
+}
+
+.gallery-map-section {
+  display: flex;
+  padding: 40px;
+  gap: 30px;
+}
+
+@media (max-width: 900px) {
+}
